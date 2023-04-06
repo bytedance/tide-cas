@@ -37,6 +37,6 @@ The maximum size of a file that can be stored in Tide-CAS. Should be smaller tha
 
 ### run
 ```bash
-# path is "block", cas size is 32GB, promotion size is 1GB, file size limit is 128MB
-./target/release/tide-cas --path block --cas-size 33554432 --promotion-size 1048576 --size-limit 131072 
+# path is "block", cas size is 32GB, promotion size is 2GB, file size limit is 1GB
+./target/release/tide-cas --path block --cas-size 32 --promotion-size 2 --size-limit 1 
 ```
